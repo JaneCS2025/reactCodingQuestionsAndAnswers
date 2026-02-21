@@ -1,0 +1,6 @@
+.accordion-icon::before {
+  content: "▶";
+  display: inline-block;
+  margin-left: 8px;
+  transition: transform 0.2s ease;
+}
