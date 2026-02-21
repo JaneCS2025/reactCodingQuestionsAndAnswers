@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import AccordionAnswerObj from './AccordionAnswerObj'
+import ContactFormAnswer from './ContactFormAnswer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AccordionAnswerObj />
+    <ContactFormAnswer />
   </StrictMode>,
 )
